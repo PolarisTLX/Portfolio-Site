@@ -274,6 +274,11 @@ header {
     margin: 1rem 6rem -2rem 6rem;
   }
 }
+@media only screen and (max-width: 600px) {
+  .testimonial-item {
+    margin: 1rem 2rem -2rem 2rem;
+  }
+}
 
 /*make the images circles and add blue border*/
 .testimonial img {
@@ -332,6 +337,15 @@ header {
 main {
   max-width: 160em;
   margin: 0 auto
+}
+
+.projects h2 {
+  /* color: #129CF3; */
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 .item {
