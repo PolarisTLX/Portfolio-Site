@@ -283,8 +283,8 @@ header {
 /*make the images circles and add blue border*/
 .testimonial img {
   border: 2px solid #129CF3;
-  height: 150px;
-  border-radius: 50% !important;
+  height: 125px;
+  border-radius: 25% !important;
   padding: 3px;
 }
 .testimonial-caption {
