@@ -732,7 +732,7 @@ main img {
 }
 
 .s-pre .inner-item {
-  background: #ece9e9
+  background: rgb(206, 49, 94);
 }
 
 .s-pre-img {
@@ -744,11 +744,11 @@ main img {
 }
 
 .s-pre h1 {
-  color: #434240
+  color: black;
 }
 
 .s-pre .item-btn, .s-pre .item-tags {
-  color: #9e9d99
+  color: #434240
 }
 
 .s-post .inner-item {
@@ -926,10 +926,6 @@ main img {
   margin-right: 5%
 }
 
-.fcc-img {
-  width: 25%
-}
-
 footer {
   color: rgba(255, 255, 255, .55);
   color: #333;
@@ -952,6 +948,20 @@ footer {
 
 .up-arrow:hover {
   filter: invert(70%)
+}
+
+.last-item {
+  /* position: absolute; */
+}
+.odin-img {
+  margin: auto;
+  margin-left: 20%;
+}
+.fcc-img {
+  /* margin-left: 3%; */
+  transform: translate(50px,-25px);
+  /* margin-top: -50%; */
+  width: 30%;
 }
 
 @media screen and (max-width:1200px) {
@@ -1098,11 +1108,20 @@ footer {
   .about-4 .item-main {
     padding: 2rem 0 3rem
   }
+  .last-item {
+    /* position: absolute; */
+  }
   .odin-img {
-    margin: auto
+    /* position: relative;
+    right: 400px;*/
+    transform: translateY(-10px);
+    margin: auto;
+    /* margin-left: -40%; */
   }
   .fcc-img {
     margin-left: 3%;
-    width: 25%
+    transform: translateY(-35px);
+    /* margin-top: -50%; */
+    width: 30%;
   }
 }
