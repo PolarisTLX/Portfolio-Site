@@ -165,7 +165,7 @@ nav .header-nav.scrolled.autowidth {
   color: #444;
   opacity: 0;
   font-size: 1rem;
-  margin: .9rem 0 0 .5rem;
+  margin: 1rem 0 0 .5rem;
   transform: translateY(-3rem);
   transition: all .2s cubic-bezier(.4, 0, 0, 1)
 }
