@@ -380,6 +380,12 @@ header {
     margin-left: -5px !important;
     margin-right: 0px !important;
   }
+  .dev-logos-rails {
+    height: 37px;
+    transform: translateY(3px) !important;
+    /* margin-left: -5px !important; */
+    /* margin-right: 0px !important; */
+  }
 }
 
 
