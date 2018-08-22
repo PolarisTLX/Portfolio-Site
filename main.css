@@ -352,7 +352,18 @@ header {
 
 
 
-
+@media only screen and (max-width: 450px) {
+  .dev-logos {
+    height: 30px;
+  }
+  .dev-logos-css3 {
+    height: 37px;
+  }
+  .dev-logos-git {
+    height: 37px;
+    transform: translateY(3px) !important;
+  }
+}
 
 
 
