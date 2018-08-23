@@ -386,6 +386,10 @@ header {
     /* margin-left: -5px !important; */
     /* margin-right: 0px !important; */
   }
+  .dev-logos-webpack {
+    height: 37px;
+    transform: translateY(4px) !important;
+  }
 }
 
 
