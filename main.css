@@ -581,6 +581,7 @@ main img {
   right: 0
 }
 
+
 .s-name .inner-item {
   background: #102a54
 }
@@ -729,6 +730,26 @@ main img {
   top: 20%;
   width: 45%;
   left: 50%
+}
+
+/* .book-library-video-a {
+  border: 2px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+} */
+
+.book-library-video {
+  /* width: 698px; */
+  /* height: 341px; */
+
+  width: 30%;
+  position: absolute;
+  bottom: 15%;
+  right: 2%;
+  /* border-radius: 20px; */
 }
 
 .clonebook .inner-item {
